@@ -1,0 +1,56 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Back Cover</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+
+
+    <div class="book-container">
+
+        <div class="book-image">
+            <img src="{% static 'images/book.jpg' %}"
+                 alt="Book Cover">
+        </div>
+
+        <div class="book-details">
+
+            <h1>The Power of Knowledge</h1>
+
+            <h3>Discover. Learn. Grow.</h3>
+
+            <p>
+                Knowledge is the key to success.
+                This book takes you through an
+                exciting journey of learning,
+                creativity and personal development.
+            </p>
+
+            <p>
+                Explore new ideas, develop your skills
+                and discover the power of knowledge
+                that can transform your future.
+            </p>
+
+            <h3>About the Author</h3>
+
+            <p>
+                John Smith is a passionate writer
+                who believes in the power of education
+                and continuous learning.
+            </p>
+
+            <div class="footer">
+                ISBN: 978-93-123456-7-8
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
